@@ -44,6 +44,7 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    outline: 2px solid tomato;
 }
 
 /* лого */
@@ -229,6 +230,9 @@ button.hero-button {
 
 /* footer */
 .footer .footer-logo {
+    display: block;
+    margin-bottom: 20px;
+
     color: var(--accent-color);
     font-family: Raleway;
     font-size: 26px;
